@@ -1,0 +1,16 @@
+{
+  "name": "Cloud stack",
+  "description": "Run my own java stack",
+  "repository": "https://github.com/radiocuatoi/herokucuatoi.git",
+  "buildpacks": [
+    {
+      "url": "https://github.com/ryandotsmith/null-buildpack.git"
+    }
+  ],
+  "env": {
+    "CONFIG": {
+      "description": "Your config value.",
+      "required": true
+    }
+  }
+}
